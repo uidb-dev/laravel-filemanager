@@ -1,0 +1,30 @@
+{
+    "name": "ybaruchel/laravel-filemanager",
+    "require": {
+        "intervention/image": "^2.4",
+        "laravelcollective/html": "*",
+        "tightenco/ziggy": "*"
+    },
+    "authors": [
+        {
+            "name": "Yohanan Baruchel",
+            "email": "ybaruchel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ybaruchel\\LaravelFileManager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ybaruchel\\LaravelFileManager\\FileManagerServiceProvider"
+            ],
+            "aliases": {
+                "FileManager": "Ybaruchel\\LaravelFileManager\\Support\\Facades\\FileManager",
+                "Cropper": "Ybaruchel\\LaravelFileManager\\Support\\Facades\\Cropper"
+            }
+        }
+    }
+}
