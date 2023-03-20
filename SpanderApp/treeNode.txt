@@ -1,1 +1,1 @@
-{"name":"laravel-filemanager","uniqueIndex":0,"childNodes":[],"parentNode":null,"issueDetails":{},"isGithubIssue":false,"nonGithubIssueDetail":{"markAsDone":false}}
+{"name":"laravel-filemanager","uniqueIndex":0,"childNodes":[{"name":"sdf","uniqueIndex":761,"childNodes":[],"parentNode":{"name":"laravel-filemanager","uniqueIndex":0,"parentNode":null,"issueDetails":{},"isGithubIssue":false,"nonGithubIssueDetail":{"markAsDone":false}},"nonGithubIssueDetail":{"markAsDone":false},"isGithubIssue":false,"issueDetails":{"state":"open"}}],"parentNode":null,"isGithubIssue":false}
