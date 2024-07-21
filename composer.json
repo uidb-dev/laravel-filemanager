@@ -3,7 +3,7 @@
     "require": {
         "intervention/image": "^2.4",
         "laravelcollective/html": "*",
-        "tightenco/ziggy": "*"
+        "tightenco/ziggy": "^2.2"
     },
     "authors": [
         {

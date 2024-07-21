@@ -6,8 +6,8 @@ use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 use Collective\Html\FormFacade as Form;
 use Collective\Html\HtmlServiceProvider;
-use Tightenco\Ziggy\ZiggyServiceProvider;
 use Intervention\Image\ImageServiceProvider;
+use Tighten\Ziggy\ZiggyServiceProvider;
 use Ybaruchel\LaravelFileManager\Providers\FacadesServiceProvider;
 use Ybaruchel\LaravelFileManager\Providers\ValidatorServiceProvider;
 
