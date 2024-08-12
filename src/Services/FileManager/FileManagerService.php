@@ -2,7 +2,9 @@
 
 namespace Ybaruchel\LaravelFileManager\Services\FileManager;
 
+use Ybaruchel\LaravelFileManager\Models\File;
 use Ybaruchel\LaravelFileManager\Services\Services;
+use Ybaruchel\LaravelFileManager\Support\Cache;
 
 class FileManagerService extends Services
 {

@@ -74,6 +74,7 @@ class FileManagerServiceProvider extends ServiceProvider
      */
     private function registerFormComponents()
     {
+        /*
         Form::component('bsImage', 'FileManager::components.image',
             ['name', 'defaultImage', 'allowedExtensions' => [], 'maxFileSize', 'fields' => null, 'croppable' => false, 'cropName' => false, 'attributes' => []]);
 
@@ -85,5 +86,6 @@ class FileManagerServiceProvider extends ServiceProvider
 
         Form::component('bsMultiFile', 'FileManager::components.multifile',
             ['name', 'defaultFiles' => [], 'allowedExtensions' => [], 'maxFileSize', 'minFiles', 'maxFiles', 'fields' => null, 'attributes' => []]);
+        */
     }
 }
