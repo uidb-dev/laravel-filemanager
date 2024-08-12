@@ -4,9 +4,9 @@ namespace Ybaruchel\LaravelFileManager;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Collective\Html\FormFacade as Form;
-use Collective\Html\HtmlServiceProvider;
 use Intervention\Image\ImageServiceProvider;
+use Spatie\Html\Elements\Form;
+use Spatie\Html\HtmlServiceProvider;
 use Tighten\Ziggy\ZiggyServiceProvider;
 use Ybaruchel\LaravelFileManager\Providers\FacadesServiceProvider;
 use Ybaruchel\LaravelFileManager\Providers\ValidatorServiceProvider;

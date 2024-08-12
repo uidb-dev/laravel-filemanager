@@ -2,8 +2,8 @@
     "name": "uidb-dev/laravel-filemanager",
     "require": {
         "intervention/image": "^2.4",
-        "laravelcollective/html": "*",
-        "tightenco/ziggy": "^2.2"
+        "tightenco/ziggy": "^2.2",
+        "spatie/laravel-html": "^3.11"
     },
     "authors": [
         {
