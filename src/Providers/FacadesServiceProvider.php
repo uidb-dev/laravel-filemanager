@@ -35,22 +35,26 @@ class FacadesServiceProvider extends ServiceProvider
     {
         // bsImage directive
         Blade::directive('bsImage', function ($expression) {
-            return "<?php echo view('FileManager::components.image', $expression)->render(); ?>";
+            $view = view('FileManager::components.image', $expression)->render();
+            return "<?php echo $view ?>";
         });
 
         // bsMultiImage directive
         Blade::directive('bsMultiImage', function ($expression) {
-            return "<?php echo view('FileManager::components.multiimage', $expression)->render(); ?>";
+            $view = view('FileManager::components.multiimage', $expression)->render();
+            return "<?php echo $view ?>";
         });
 
         // bsFile directive
         Blade::directive('bsFile', function ($expression) {
-            return "<?php echo view('FileManager::components.file', $expression)->render(); ?>";
+            $view = view('FileManager::components.file', $expression)->render();
+            return "<?php echo $view ?>";
         });
 
         // bsMultiFile directive
         Blade::directive('bsMultiFile', function ($expression) {
-            return "<?php echo view('FileManager::components.multifile', $expression)->render(); ?>";
+            $view = view('FileManager::components.multifile', $expression)->render();
+            return "<?php echo $view ?>";
         });
     }
     /**
