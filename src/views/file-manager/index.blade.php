@@ -48,7 +48,7 @@
                 <div class="items">
 
                     <div class="background">
-                        {{Form::open(['class' => 'form-horizontal', 'id' => 'filesForm' ])}}
+                        {{html()->form()->open(['class' => 'form-horizontal', 'id' => 'filesForm' ])}}
                         @if($folders->count() || $files->count())
                             <div class="row actions">
                                 <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 search">
@@ -175,7 +175,7 @@
                             @endif
 
                         </div>
-                        {{Form::close()}}
+                        {{html()->form()->close()}}
                     </div>
 
                 </div>
