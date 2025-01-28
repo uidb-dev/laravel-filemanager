@@ -55,7 +55,7 @@ class FileManagerServiceProvider extends ServiceProvider
     private function registerDependencies()
     {
         $this->app->register(HtmlServiceProvider::class);
-        AliasLoader::getInstance(['Form'=>'\Collective\Html\FormFacade']);
+        AliasLoader::getInstance(['Form'=>'\Spatie\Html\Elements\Form']);
     }
 
     /**
