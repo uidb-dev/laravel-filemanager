@@ -4,6 +4,7 @@ namespace Ybaruchel\LaravelFileManager\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Facades\Log;
 use Intervention\Image\Facades\Image;
 use Ybaruchel\LaravelFileManager\Models\File;
 use Ybaruchel\LaravelFileManager\Models\Folder;
@@ -84,6 +85,7 @@ class FileManagerController extends Controller
             if (!isset($itemIds[$key]))
                 return back();
             if ($remove) {
+                Log::debug('Inside File Manager Post', [$key, $itemId, $itemIds[$key], $itemTypes[$key]]);
                 $this->removeItem($itemIds[$key], $itemTypes[$key]);
             } elseif ($transfer) {
                 if($transferToFolder === false)
