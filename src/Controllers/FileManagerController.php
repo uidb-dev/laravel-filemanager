@@ -85,8 +85,9 @@ class FileManagerController extends Controller
             if (!isset($itemIds[$key]))
                 return back();
             if ($remove) {
-                dd($key, $itemId, $itemIds[$key], $itemTypes[$key]);
+                Log::warning('Inside File Manager Post', [$key, $itemId, $itemIds[$key], $itemTypes[$key]]);
                 $this->removeItem($itemIds[$key], $itemTypes[$key]);
+                Log::warning('After Remove');
             } elseif ($transfer) {
                 if($transferToFolder === false)
                     return back();
